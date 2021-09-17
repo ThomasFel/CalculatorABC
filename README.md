@@ -1,2 +1,4 @@
-# CalculatorABC
- Tugas 1 Pemrograman Perangkat Bergerak
+# Tugas Pemrograman Perangkat Bergerak
+
+1. Kalkulator ABC
+2. Kalkulator Sederhana
