@@ -1,2 +1,4 @@
-# Kalkulator ABC (Persamaan Kuadrat)
- Tugas 1 Pemrograman Perangkat Bergerak 2021
+# Tugas Pemrograman Perangkat Bergerak 2021
+
+1. Kalkulator ABC
+2. Kalkulator Sederhana
