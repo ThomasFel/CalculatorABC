@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         nama = (EditText) findViewById(R.id.nama);
         simpan = (Button) findViewById(R.id.simpan);
         ambilData = (Button) findViewById(R.id.ambilData);
+        updateData = (Button) findViewById(R.id.updateData);
+        deleteData = (Button) findViewById(R.id.deleteData);
 
         simpan.setOnClickListener(operasi);
         ambilData.setOnClickListener(operasi);
@@ -69,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.updateData:update();
                 break;
 
-                case R.id.deleteData:update();
+                case R.id.deleteData:delete();
             }
         }
     };
