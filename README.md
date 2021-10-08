@@ -4,3 +4,4 @@
 2. Kalkulator Sederhana
 3. Simple Marketplace
 4. Database Sederhana
+5. Kontak HP (CRUD)
