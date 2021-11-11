@@ -6,3 +6,4 @@
 4. Database Sederhana
 5. Kontak HP (CRUD)
 6. Maps & GPS Sederhana
+7. Weather API (JSON Parser)
