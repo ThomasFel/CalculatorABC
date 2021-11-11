@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/country_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_tv"
+        android:layout_marginTop="100dp"
+        android:text="@string/country"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/temperature_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_tv"
+        android:layout_marginTop="25dp"
+        android:text="@string/temperature"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/humidity_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature_tv"
+        android:layout_marginTop="25dp"
+        android:text="@string/humidity"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/pressure_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidity_tv"
+        android:layout_marginTop="25dp"
+        android:text="@string/pressure"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@id/location_tv"
+        android:layout_alignBaseline="@id/location_tv"
+        android:ems="12" />
+
+    <EditText
+        android:id="@+id/negara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@id/country_tv"
+        android:layout_alignBaseline="@id/country_tv"
+        android:ems="12" />
+
+    <EditText
+        android:id="@+id/suhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@id/temperature_tv"
+        android:layout_alignBaseline="@id/temperature_tv"
+        android:ems="12" />
+
+    <EditText
+        android:id="@+id/kelembaban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/humidity_tv"
+        android:layout_alignBottom="@id/humidity_tv"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="-82dp"
+        android:ems="12" />
+
+    <EditText
+        android:id="@+id/tekanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@id/pressure_tv"
+        android:layout_alignBaseline="@id/pressure_tv"
+        android:ems="12" />
+
+    <TextView
+        android:id="@+id/waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_below="@id/tekanan"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false" />
+
+    <Button
+        android:id="@+id/cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/negara"
+        android:layout_below="@id/lokasi"
+        android:layout_marginTop="10dp"
+        android:text="@string/cari" />
+</RelativeLayout>

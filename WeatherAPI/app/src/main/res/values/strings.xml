@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherAPI</string>
+    <string name="location">Kota:</string>
+    <string name="country">Negara:</string>
+    <string name="temperature">Suhu:</string>
+    <string name="humidity">Kelembaban:</string>
+    <string name="pressure">Tekanan:</string>
+    <string name="cari">Cari</string>
+</resources>
