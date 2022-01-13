@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KontakHP</string>
+    <string name="nama">Nama</string>
+    <string name="nohp">No. HP</string>
+    <string name="profile_img">Foto Profil</string>
+    <string name="create">Create</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="find">Find</string>
+    <string name="change">Change Fragment</string>
+    <string name="tambah_kontak">Tambah Kontak</string>
+    <string name="cari_kontak">Cari Kontak</string>
+    <string name="isi_nama">Isikan nama dengan benar</string>
+    <string name="isi_hp">Isikan nomor dengan benar</string>
+    <string name="hapus_data">Apakah Anda yakin ingin menghapus data tersebut?</string>
+</resources>

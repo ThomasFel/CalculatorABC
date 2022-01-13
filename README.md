@@ -5,5 +5,6 @@
 3. Simple Marketplace
 4. Database Sederhana
 5. Kontak HP (CRUD)
-6. Maps & GPS Sederhana
-7. Weather API (JSON Parser)
+6. Kontak HP (CRUD) with Fragment
+7. Maps & GPS Sederhana
+8. Weather API (JSON Parser)
